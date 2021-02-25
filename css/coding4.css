@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.header-block {
+    width: 100%;
+    background-color: #ffffff;
+    height: 95px;
+}
+
+.nav-block {
+    width: 1060px;
+    height: 95px;
+    margin: 0 auto;
+}
+
+.nav-block ul {
+    display: flex;
+    width: 1060px;
+    height: 95px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-block a {
+    font-family: myriad pro;
+    color: #333;
+    font-size: 15px;
+}
+
+.nav-header a {
+    font-size: 36px;
+    padding: 0 30px;
+}
+
+.top-main {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.top-main h2 {
+    padding-top: 195px;
+    font-family: myriad pro;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 174px;
+    transform: rotate(-5deg);
+    padding-left: 180px;
+}
+
+.top-main h3 {
+    padding-left: 410px;
+    font-family: myriad pro;
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+    letter-spacing: 4px;
+}
+
+.top-main p {
+    display: inline-block;
+    margin-top: 50px;
+    font-family: myriad pro;
+    font-size: 18px;
+    color: #333;
+    margin-left: 380px;
+    letter-spacing: 0.6px;
+    border-bottom: solid 2px #333;
+    padding-bottom: 6px;
+}
+
+.sub-main {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.double-block {
+    width: 700px;
+    height: 170px;
+}
+
+.single-block1 {
+    width: 690px;
+    height: 220px;
+    position: relative;
+    background-color: #f5f0e9;
+}
+
+.single-block2 {
+    width: 700px;
+    height: 245px;
+    background-color: #e2e2e2;
+    position: absolute;
+    top: 870px;
+    left: 155px;
+}
+
+.sub-information {
+    padding-left: 95px;
+    font-family: myriad pro;
+    color: #333;
+    padding-top: 30px;
+}
+
+.first {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.sub-information h2 {
+    padding-top: 10px;
+    font-size: 64px;
+    font-weight: normal;
+    letter-spacing: 4px;
+}
+
+.sub-information h3 {
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 6px;
+    padding-top: 10px;
+}
+
+.second {
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 40px;
+    border-bottom: solid 1px #333;
+    padding-bottom: 3px;
+}
